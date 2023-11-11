@@ -1,0 +1,8 @@
+# 项目排除路径
+/clientcom/target/
+/Earekaclientprovied/target/
+/Eureka/target/
+/feign/target/
+/hystrix/target/
+/ribbon/target/
+/zuul/target/

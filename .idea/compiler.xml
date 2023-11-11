@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Earekaclientprovied" />
+        <module name="hystrix" />
+        <module name="clientcom" />
+        <module name="ribbon" />
+        <module name="zuul" />
+        <module name="Eureka" />
+        <module name="feign" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Earekaclientprovied" options="-parameters" />
+      <module name="Eureka" options="-parameters" />
+      <module name="clientcom" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
+      <module name="ribbon" options="-parameters" />
+      <module name="springcloud" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
