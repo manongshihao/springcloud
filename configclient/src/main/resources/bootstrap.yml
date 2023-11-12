@@ -1,0 +1,13 @@
+#这必须要用bootstrap.yml
+spring:
+  cloud:
+    config:
+      name: configoe #配置文件的前半部分名称
+      label: master
+      discovery:
+        enabled: true
+        service-id: configserver
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
